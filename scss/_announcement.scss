@@ -7,7 +7,7 @@ a.notice {
   background: url('../img/inky-banner-bg-boat.svg') no-repeat center center;
   background-size: cover;
 
-  @include breakpoint(medium down) {
+  @include media-breakpoint-down(medium) {
     background: url('../img/inky-banner-bg-clear.svg') no-repeat center center;
     background-size: cover;
   }

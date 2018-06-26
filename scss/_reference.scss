@@ -1,10 +1,10 @@
 // Styles for the Sass and JavaScript reference sections.
 
 .docs-variable-table {
-  @include breakpoint(medium down) {
+  @include media-breakpoint-down(medium) {
     @include table-stack;
   }
-  
+
   width: 100%;
   border: 0;
 
@@ -22,7 +22,7 @@
   tbody {
     border: 0;
   }
-  
+
   // Reset code styles to look like plain text
   code {
     background: transparent;

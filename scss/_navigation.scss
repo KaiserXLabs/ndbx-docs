@@ -10,10 +10,10 @@
   -webkit-overflow-scrolling: touch;
   width: 100%;
 
-  @include breakpoint(small only) {
+  @include media-breakpoint-only(small) {
     height: auto;
   }
-  
+
   li small {
     color: #999;
     text-transform: uppercase;

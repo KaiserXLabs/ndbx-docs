@@ -23,7 +23,7 @@
   }
 }
 
-@include breakpoint(small only) {
+@include media-breakpoint-only(small) {
   .docs-mobile-video {
     position: absolute;
     left: 0;
@@ -35,7 +35,7 @@
 }
 
 // Move the video for desktops
-@include breakpoint(medium up) {
+@include media-breakpoint-up(medium) {
   .docs-video-inner.is-stuck.autostick {
     position: fixed;
     z-index: 10000;
@@ -88,7 +88,7 @@
 
 }
 // fullscreen vid for mobile
-@include breakpoint(small only) {
+@include media-breakpoint-only(small) {
   .docs-video-inner.playing {
     position: fixed;
     z-index: 10000;

@@ -15,7 +15,7 @@
     width: 100%;
   }
 
-  @include breakpoint(large) {
+  @include media-breakpoint-up(large) {
     display: block !important;
     border-bottom: 0;
   }
@@ -124,7 +124,7 @@
 
 .docs-toc-divider {
   border-bottom: 1px dashed #c3c3c3;
-  
+
   &.small {
     margin-top: 1rem;
     margin-bottom: 1rem;

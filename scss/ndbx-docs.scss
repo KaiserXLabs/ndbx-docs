@@ -41,7 +41,7 @@
 }
 
 .docs-contribute-menu {
-  @include breakpoint(small only) {
+  @include media-breakpoint-only(small) {
     font-size: rem-calc(14);
   }
 

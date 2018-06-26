@@ -65,7 +65,7 @@
     box-shadow: none;
   }
 
-  @include breakpoint(small down) {
+  @include media-breakpoint-down(small) {
     border: 0;
     border-top: 1px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
@@ -116,7 +116,7 @@
     text-overflow: ellipsis;
   }
 
-  @include breakpoint(medium) {
+  @include media-breakpoint-up(medium) {
     padding: 1rem;
 
     .name {

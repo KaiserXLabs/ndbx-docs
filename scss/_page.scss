@@ -29,7 +29,7 @@
   left: 0;
   z-index: 50;
   transition: transform 0.4s;
-  @include breakpoint(small only) {
+  @include media-breakpoint-only(small) {
     &.mobile-hidden {
       transform: translateY(-100%);
     }
@@ -62,7 +62,7 @@
 
 .subpage-intro-video {
   min-height: 225px;
-  @include breakpoint(medium) {
+  @include media-breakpoint-up(medium) {
     min-height: 475px;
   }
 }
