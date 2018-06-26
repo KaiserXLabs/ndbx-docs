@@ -1,6 +1,6 @@
 {
   "name": "ndbx-docs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Common templates and utilities for the NDBX family documentation.",
   "main": "index.js",
   "scripts": {
